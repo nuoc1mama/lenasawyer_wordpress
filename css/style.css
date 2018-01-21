@@ -1,0 +1,193 @@
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 10px;
+	background-color: aliceblue
+}
+
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.75em;
+	color: indigo;
+	
+}
+
+h2.section{
+	clear: both;
+	padding-top: 10px;
+}
+
+h3{
+	font-size: 1.25em;
+	color: rebeccapurple;	
+}
+
+h4 {
+	font-size: 1em;
+	color: purple;
+	font-weight: 100
+}
+
+.details {
+	display: inline;
+	float: right;
+	margin-left: 0;
+}
+
+p{
+	background-color: aliceblue;
+	display: inline;
+	word-wrap:normal;
+	line-height: 1;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+
+}
+
+/*LINKS*/
+a {
+    color: 152	37	140	;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 12px;
+	display: block;
+	text-transform: uppercase;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+a:hover{
+	color: aquamarine;
+}
+
+a:visited{
+	color: 152	37	140;
+}
+
+cite a{
+	font-size: 10px;
+	text-transform: none;
+}
+
+.info a{
+	color: 152	37	140	;
+    text-align: left ;
+    padding-bottom: 0;
+    text-decoration: none;
+    font-size: 12px;
+	display: inline;
+	text-transform: uppercase;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+
+/*NAVBAR*/
+.navbar{
+	background-color: aquamarine;
+	overflow: hidden;
+	position: relative
+}
+
+.navbar ul {
+	list-style: none;
+}
+
+.navbar a {
+    float: left;
+    color: 152	37	140	;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 15%
+}
+
+.navbar a:hover{
+	color: aquamarine;
+	background-color:azure
+}
+
+.navbar a:visited{
+	color: 152	37	140;
+}
+
+
+
+/*IMAGES*/
+.bio-image cite{
+	font-size: 10px;
+	float: left;
+	text-align: center;
+}
+img {
+	display: inline;
+	float: left;
+	margin-right:1em;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 575px) {
+    .navbar{
+		background-color: aquamarine;
+		overflow: hidden;
+		position: relative
+	}
+	.navbar a {
+		float: left;
+		color: 152	37	140	;
+		text-align: center;
+		padding-bottom: 10px;
+		text-decoration: none;
+		font-size: 10px;
+		display: inline-block;
+		text-transform: uppercase;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		width: 15%
+	}
+	
+	h1{
+	font-size: 1.75em;
+	}
+	
+	h2{
+		font-size: 1.25em;
+		color: indigo;
+	}
+
+	h3{
+		font-size: 1em;
+		color: rebeccapurple;	
+	}
+
+	h4 {
+		font-size: .75em;
+		color: purple;
+		font-weight: 100
+	}
+}
+
+@media (max-width: 450px) {
+    .navbar{
+		background-color: aquamarine;
+		overflow: hidden;
+		position: relative
+	}
+	.navbar a {
+		float: left;
+		color: 152	37	140	;
+		text-align: center;
+		padding-bottom: 10px;
+		text-decoration: none;
+		font-size: 8px;
+		display: inline-block;
+		text-transform: uppercase;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		width: 15%
+	}
+}
